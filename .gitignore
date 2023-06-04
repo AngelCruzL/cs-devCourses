@@ -475,4 +475,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
 .idea/
+azure-sql-edge-data/

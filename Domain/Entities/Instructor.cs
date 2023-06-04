@@ -6,4 +6,5 @@ public class Instructor : BaseEntity
   public string LastName { get; set; }
   public string Degree { get; set; }
   public byte[] ProfilePicture { get; set; }
+  public ICollection<CourseInstructor> CourseLink { get; set; }
 }

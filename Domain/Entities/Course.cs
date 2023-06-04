@@ -8,4 +8,5 @@ public class Course : BaseEntity
   public byte[] BannerPicture { get; set; }
   public Price discountPrice { get; set; }
   public ICollection<Comment> Comments { get; set; }
+  public ICollection<CourseInstructor> InstructorsLinks { get; set; }
 }

@@ -7,4 +7,5 @@ public class Course : BaseEntity
   public DateTime PublishDate { get; set; }
   public byte[] BannerPicture { get; set; }
   public Price discountPrice { get; set; }
+  public ICollection<Comment> Comments { get; set; }
 }

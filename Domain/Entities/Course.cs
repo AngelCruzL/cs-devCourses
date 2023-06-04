@@ -6,4 +6,5 @@ public class Course : BaseEntity
   public string Description { get; set; }
   public DateTime PublishDate { get; set; }
   public byte[] BannerPicture { get; set; }
+  public Price discountPrice { get; set; }
 }
